@@ -53,6 +53,24 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
+1. `C:\>composer global require laravel/installer`
+2. `C:\>laravel new adminpanel`
+3. `C:\>cd adminpanel`
+4. `C:\adminpanel>php artisan serve`
+5. `C:\adminpanel>composer require laravel/jetstream`
+6. `C:\adminpanel>php artisan jetstream:install livewire`
+7. `C:\adminpanel>npm install`
+8. `C:\adminpanel>npm run build`
+9. `C:\adminpanel>php artisan migrate`
+10. `C:\adminpanel> php artisan make:model Topic -m`
+11. `C:\adminpanel> php artisan make:model Reply -m`
+12. `C:\adminpanel> php artisan make:controller TopicController`
+13. `C:\adminpanel> php artisan make:controller ReplyController`
+14. resources/views/topics/index.blade.php
+15. resources/views/topics/show.blade.php
+16. resources/views/replies/reply.blade.php
+17. resources/views/layouts/app.blade.php
+
 ## Code of Conduct
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
