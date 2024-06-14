@@ -70,6 +70,10 @@ Thank you for considering contributing to the Laravel framework! The contributio
 15. resources/views/topics/show.blade.php
 16. resources/views/replies/reply.blade.php
 17. resources/views/layouts/app.blade.php
+18. resources/views/topics/create.blade.php
+19. resources/views/topics/edit.blade.php
+20. resources/views/replies/show.blade.php
+21. routes/web.php
 
 ## Code of Conduct
 
